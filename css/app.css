@@ -11,6 +11,9 @@
     appearance: none;
     color: black;
 }
+body {
+    background-color: lightgray;
+}
 #info {
     top: 10px;
     left: 20px;
@@ -31,6 +34,10 @@
     height: 60px;
     border: 2px solid black;
     box-sizing: border-box;
+}
+#game {
+    display: none;
+    z-index: 1;
 }
 .button {
     width: 110px;
