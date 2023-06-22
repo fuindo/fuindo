@@ -105,6 +105,12 @@ let events = {
         $("#info").addEventListener("click", () => {
             alert("Nothing here yet.")
         })
+	$("#github").addEventListener("click", () => {
+            window.open("https://github.com/fuindo")
+        })
+        $("#discord").addEventListener("click", () => {
+            window.open("https://discord.gg/tKsmsDYER9")
+        })
         $("#play").addEventListener("click", () => {
             game.start()
         })
