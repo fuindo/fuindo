@@ -22,6 +22,8 @@ let game = {
     },
     start: function() {
         $("#info").style.display = "none"
+	$("#github").style.display = "none"
+        $("#discord").style.display = "none"
         $("#menu").style.display = "none"
         $("#game").style.display = "block"
         this.loop()
