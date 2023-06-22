@@ -19,6 +19,16 @@ body {
     left: 20px;
     position: fixed;
 }
+#github {
+    top: 10px;
+    left: 140px;
+    position: fixed;
+}
+#discord {
+    top: 10px;
+    left: 260px;
+    position: fixed;
+}
 #menu {
     display: flex;
     justify-content: center;
