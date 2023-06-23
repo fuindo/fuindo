@@ -3,7 +3,7 @@ let canvas = $("#game")
 let ctx = canvas.getContext("2d")
 let w = window.innerWidth
 let h = window.innerHeight
-let developer = true
+let developer = false
 canvas.width = w
 canvas.height = h
 ctx.imageSmoothingEnabled = false
@@ -25,6 +25,7 @@ let game = {
 	$("#github").style.display = "none"
         $("#discord").style.display = "none"
         $("#menu").style.display = "none"
+	document.body.style.background = "none"
         $("#game").style.display = "block"
         this.loop()
     },
