@@ -12,7 +12,10 @@
     color: black;
 }
 body {
-    background-color: lightgray;
+    background-color: #843d00;
+    background-image: url("../assets/ui/background.svg");
+    background-size: 100px 100px;
+    background-repeat: repeat;
 }
 #info {
     top: 10px;
@@ -20,13 +23,21 @@ body {
     position: fixed;
 }
 #github {
-    top: 10px;
-    left: 140px;
+    top: 80px;
+    left: 20px;
     position: fixed;
 }
 #discord {
-    top: 10px;
-    left: 260px;
+    top: 150px;
+    left: 20px;
+    position: fixed;
+}
+#title {
+    width: 560px;
+    height: 200px;
+    top: 50px;
+    background-image: url("../assets/ui/title.svg");
+    background-size: cover;
     position: fixed;
 }
 #menu {
@@ -44,6 +55,12 @@ body {
     height: 60px;
     border: 2px solid black;
     box-sizing: border-box;
+    text-align: center;
+    background-color: #c88041;
+}
+#username::placeholder {
+    text-align: center;
+    color: black;
 }
 #game {
     display: none;
@@ -54,4 +71,5 @@ body {
     height: 60px;
     border: 2px solid black;
     box-sizing: border-box;
+    background-color: #c88041;
 }
